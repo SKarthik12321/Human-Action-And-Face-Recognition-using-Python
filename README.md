@@ -47,22 +47,6 @@ For the "who's walking?" problem (biometric gait recognition):
 **Download**:  
 [UCI Repository – User Identification From Walking Activity](https://archive.ics.uci.edu/dataset/459/user+identification+from+walking+activity)
 
-## Project Structure (Typical)
-
-Human-Action-And-Face-Recognition-using-Python/
-├── notebooks/
-│   ├── 01_data_exploration.ipynb          # Load, visualize, understand signals
-│   ├── 02_preprocessing_feature_eng.ipynb # Windowing, stats, FFT, etc.
-│   ├── 03_model_training_activity.ipynb   # CNN / LSTM for activity classification
-│   ├── 04_face_detection_recognition.ipynb# OpenCV / dlib / deepface basics
-│   └── evaluation_visuals.ipynb
-├── src/                  # Reusable scripts & utils
-├── data/                 # (gitignore large files – place datasets here)
-├── requirements.txt
-├── README.md
-└── models/               # Saved trained models (optional)
-
-
 ## Quick Start
 1. Clone the repo:
    ```bash
